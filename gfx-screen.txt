@@ -1,0 +1,186 @@
+Import-Bitmap "img\screen.pal.png" Read-Palettes --palette-size 16 --palette-number 4 Convert-Palettes GBA
+Import-Bitmap "img\screen-folder.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-folder.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-pack.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-pack.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-chip.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-chip.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-folderselect.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-folderselect.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-library.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-library.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-megaman.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-megaman.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-pamemo.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-pamemo.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-pattern.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-pattern.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-combo.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-combo.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-mail.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-mail.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-keyitems.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-keyitems.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-network.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-network.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-tradechip.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-tradechip.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-choosing-chip.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-choosing-chip.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-save.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-save.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-subchips.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-subchips.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-tradestyle.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-tradestyle.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-choosing-style.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-choosing-style.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-v2.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-v2.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-v3.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-v3.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-hidestyle.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-hidestyle.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-normstyl.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-normstyl.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-elecguts.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-elecguts.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-heatguts.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-heatguts.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-aquaguts.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-aquaguts.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-woodguts.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-woodguts.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-eleccust.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-eleccust.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-heatcust.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-heatcust.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-aquacust.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-aquacust.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-woodcust.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-woodcust.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-electeam.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-electeam.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-heatteam.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-heatteam.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-aquateam.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-aquateam.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-woodteam.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-woodteam.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-elecshld.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-elecshld.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-heatshld.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-heatshld.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-aquashld.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-aquashld.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-woodshld.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-woodshld.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-hubstyl.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-hubstyl.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-shop.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-shop.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-trader.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-trader.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-trader-sort.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-trader-sort.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-board-0.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-board-0.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-board-1.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-board-1.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-results-total.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-results-total.map.bin"
+Clear-Tilemap
+Import-Bitmap "img\screen-results-boss.png" Convert-Bitmap GBA
+Generate-Tilemap GBA-4BPP --append
+Serialize-Tilemap --base-tile 0x1 Export-Bytes "<temp>\screen-results-boss.map.bin"
+Serialize-Tileset Export-Bytes "<temp>\screen.img.bin"
+Serialize-Palettes Export-Bytes "<temp>\screen.pal.bin"

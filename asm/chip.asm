@@ -1,0 +1,299 @@
+// Chip codes
+.org 0x800E450 + 0x20*(  2) + 0x0 + 0x1*(4)	// HiCannon  code 5
+	.db	( 7)	// G -> H
+.org 0x800E450 + 0x20*(  3) + 0x0 + 0x1*(2)	// M-Cannon  code 3
+	.db	( 9)	// G -> J
+.org 0x800E450 + 0x20*(197) + 0x0 + 0x1*(0)	// GutsMan   code 1
+	.db	(20)	// G -> U
+.org 0x800E450 + 0x20*(198) + 0x0 + 0x1*(0)	// GutsManV2 code 1
+	.db	(20)	// G -> U
+.org 0x800E450 + 0x20*(199) + 0x0 + 0x1*(0)	// GutsManV3 code 1
+	.db	(20)	// G -> U
+.org 0x800E450 + 0x20*(236) + 0x0 + 0x1*(0)	// GateMan   code 1
+	.db	( 0)	// G -> A
+.org 0x800E450 + 0x20*(237) + 0x0 + 0x1*(0)	// GateManV2 code 1
+	.db	( 0)	// G -> A
+.org 0x800E450 + 0x20*(238) + 0x0 + 0x1*(0)	// GateManV3 code 1
+	.db	( 0)	// G -> A
+.org 0x800E450 + 0x20*(265) + 0x0 + 0x1*(0)	// GateSP    code 1
+	.db	( 0)	// G -> A
+
+
+// Chip Alphabet sorting
+.org 0x800E450 + 0x20*(254) + 0x10	::	.dh	(  1)	// AiaSword
+.org 0x800E450 + 0x20*(203) + 0x10	::	.dh	(  2)	// AirMan
+.org 0x800E450 + 0x20*(204) + 0x10	::	.dh	(  3)	// AirManV2
+.org 0x800E450 + 0x20*(205) + 0x10	::	.dh	(  4)	// AirManV3
+.org 0x800E450 + 0x20*(139) + 0x10	::	.dh	(  5)	// AirShoes
+.org 0x800E450 + 0x20*(184) + 0x10	::	.dh	(  6)	// AntiDma
+.org 0x800E450 + 0x20*(182) + 0x10	::	.dh	(  7)	// AntiElec
+.org 0x800E450 + 0x20*(181) + 0x10	::	.dh	(  8)	// AntiFire
+.org 0x800E450 + 0x20*(186) + 0x10	::	.dh	(  9)	// AntiNavi
+.org 0x800E450 + 0x20*(187) + 0x10	::	.dh	( 10)	// AntiRecv
+.org 0x800E450 + 0x20*(185) + 0x10	::	.dh	( 11)	// AntiSwrd
+.org 0x800E450 + 0x20*(183) + 0x10	::	.dh	( 12)	// AntiWatr
+.org 0x800E450 + 0x20*(149) + 0x10	::	.dh	( 13)	// Anubis
+.org 0x800E450 + 0x20*(190) + 0x10	::	.dh	( 14)	// Aqua+40
+.org 0x800E450 + 0x20*(165) + 0x10	::	.dh	( 15)	// AquaAura
+.org 0x800E450 + 0x20*(100) + 0x10	::	.dh	( 16)	// AquaBall
+.org 0x800E450 + 0x20*( 30) + 0x10	::	.dh	( 17)	// AquaBlde
+.org 0x800E450 + 0x20*(262) + 0x10	::	.dh	( 18)	// AquaOspl
+.org 0x800E450 + 0x20*( 27) + 0x10	::	.dh	( 19)	// AquaSwrd
+.org 0x800E450 + 0x20*(131) + 0x10	::	.dh	( 20)	// AreaRab
+.org 0x800E450 + 0x20*(236) + 0x10	::	.dh	( 21)	// AteMan
+.org 0x800E450 + 0x20*(237) + 0x10	::	.dh	( 22)	// AteManV2
+.org 0x800E450 + 0x20*(238) + 0x10	::	.dh	( 23)	// AteManV3
+.org 0x800E450 + 0x20*(265) + 0x10	::	.dh	( 24)	// AteSP
+.org 0x800E450 + 0x20*(188) + 0x10	::	.dh	( 25)	// Atk+10
+.org 0x800E450 + 0x20*( 47) + 0x10	::	.dh	( 26)	// Atk+20
+.org 0x800E450 + 0x20*( 48) + 0x10	::	.dh	( 27)	// Atk+30
+.org 0x800E450 + 0x20*(112) + 0x10	::	.dh	( 28)	// Barrier
+.org 0x800E450 + 0x20*(248) + 0x10	::	.dh	( 29)	// Bass
+.org 0x800E450 + 0x20*(249) + 0x10	::	.dh	( 30)	// BassV2
+.org 0x800E450 + 0x20*(250) + 0x10	::	.dh	( 31)	// BassV3
+.org 0x800E450 + 0x20*(163) + 0x10	::	.dh	( 32)	// BblWrap
+.org 0x800E450 + 0x20*( 19) + 0x10	::	.dh	( 33)	// BiBomb
+.org 0x800E450 + 0x20*( 93) + 0x10	::	.dh	( 34)	// BiCloud
+.org 0x800E450 + 0x20*(251) + 0x10	::	.dh	( 35)	// BiRedWav
+.org 0x800E450 + 0x20*(110) + 0x10	::	.dh	( 36)	// Blckhole
+.org 0x800E450 + 0x20*(255) + 0x10	::	.dh	( 37)	// BlkBomb
+.org 0x800E450 + 0x20*( 63) + 0x10	::	.dh	( 38)	// Blower
+.org 0x800E450 + 0x20*(118) + 0x10	::	.dh	( 39)	// BrnzFist
+.org 0x800E450 + 0x20*(  8) + 0x10	::	.dh	( 40)	// Bubbler
+.org 0x800E450 + 0x20*( 10) + 0x10	::	.dh	( 41)	// BubCross
+.org 0x800E450 + 0x20*( 11) + 0x10	::	.dh	( 42)	// BubSprd
+.org 0x800E450 + 0x20*(  9) + 0x10	::	.dh	( 43)	// Bub-V
+.org 0x800E450 + 0x20*( 64) + 0x10	::	.dh	( 44)	// Burner
+.org 0x800E450 + 0x20*(141) + 0x10	::	.dh	( 45)	// Candle1
+.org 0x800E450 + 0x20*(142) + 0x10	::	.dh	( 46)	// Candle2
+.org 0x800E450 + 0x20*(143) + 0x10	::	.dh	( 47)	// Candle3
+.org 0x800E450 + 0x20*( 52) + 0x10	::	.dh	( 48)	// CannBall
+.org 0x800E450 + 0x20*(  1) + 0x10	::	.dh	( 49)	// Cannon
+.org 0x800E450 + 0x20*(136) + 0x10	::	.dh	( 50)	// Catcher
+.org 0x800E450 + 0x20*( 46) + 0x10	::	.dh	( 51)	// ColdPnch
+.org 0x800E450 + 0x20*( 18) + 0x10	::	.dh	( 52)	// CrosBomb
+.org 0x800E450 + 0x20*(  6) + 0x10	::	.dh	( 53)	// CrossUn
+.org 0x800E450 + 0x20*( 85) + 0x10	::	.dh	( 54)	// CrsShld1
+.org 0x800E450 + 0x20*( 86) + 0x10	::	.dh	( 55)	// CrsShld2
+.org 0x800E450 + 0x20*( 87) + 0x10	::	.dh	( 56)	// CrsShld3
+.org 0x800E450 + 0x20*( 34) + 0x10	::	.dh	( 57)	// CustSwrd
+.org 0x800E450 + 0x20*(209) + 0x10	::	.dh	( 58)	// CutMan
+.org 0x800E450 + 0x20*(210) + 0x10	::	.dh	( 59)	// CutManV2
+.org 0x800E450 + 0x20*(211) + 0x10	::	.dh	( 60)	// CutManV3
+.org 0x800E450 + 0x20*( 50) + 0x10	::	.dh	( 61)	// DashAtk
+.org 0x800E450 + 0x20*( 96) + 0x10	::	.dh	( 62)	// DblSnsr
+.org 0x800E450 + 0x20*( 53) + 0x10	::	.dh	( 63)	// DoubNdl
+.org 0x800E450 + 0x20*(156) + 0x10	::	.dh	( 64)	// DropDown
+.org 0x800E450 + 0x20*( 41) + 0x10	::	.dh	( 65)	// Dynawave
+.org 0x800E450 + 0x20*(133) + 0x10	::	.dh	( 66)	// Eddon1
+.org 0x800E450 + 0x20*(134) + 0x10	::	.dh	( 67)	// Eddon2
+.org 0x800E450 + 0x20*(135) + 0x10	::	.dh	( 68)	// Eddon3
+.org 0x800E450 + 0x20*(192) + 0x10	::	.dh	( 69)	// Elec+40
+.org 0x800E450 + 0x20*(168) + 0x10	::	.dh	( 70)	// ElecAura
+.org 0x800E450 + 0x20*(101) + 0x10	::	.dh	( 71)	// ElecBall
+.org 0x800E450 + 0x20*( 31) + 0x10	::	.dh	( 72)	// ElecBlde
+.org 0x800E450 + 0x20*(263) + 0x10	::	.dh	( 73)	// ElecOspl
+.org 0x800E450 + 0x20*( 28) + 0x10	::	.dh	( 74)	// ElecSwrd
+.org 0x800E450 + 0x20*(138) + 0x10	::	.dh	( 75)	// Escape
+.org 0x800E450 + 0x20*(103) + 0x10	::	.dh	( 76)	// Eyser
+.org 0x800E450 + 0x20*(148) + 0x10	::	.dh	( 77)	// Fan
+.org 0x800E450 + 0x20*(151) + 0x10	::	.dh	( 78)	// FastAue
+.org 0x800E450 + 0x20*(189) + 0x10	::	.dh	( 79)	// Fire+40
+.org 0x800E450 + 0x20*(166) + 0x10	::	.dh	( 80)	// FireAura
+.org 0x800E450 + 0x20*( 29) + 0x10	::	.dh	( 81)	// FireBlde
+.org 0x800E450 + 0x20*(261) + 0x10	::	.dh	( 82)	// FireOspl
+.org 0x800E450 + 0x20*( 60) + 0x10	::	.dh	( 83)	// FireRat
+.org 0x800E450 + 0x20*( 26) + 0x10	::	.dh	( 84)	// FireSwrd
+.org 0x800E450 + 0x20*(252) + 0x10	::	.dh	( 85)	// FreezBom
+.org 0x800E450 + 0x20*(221) + 0x10	::	.dh	( 86)	// FreezeMn
+.org 0x800E450 + 0x20*(222) + 0x10	::	.dh	( 87)	// FrzManV2
+.org 0x800E450 + 0x20*(223) + 0x10	::	.dh	( 88)	// FrzManV3
+.org 0x800E450 + 0x20*( 95) + 0x10	::	.dh	( 89)	// FrntSnsr
+.org 0x800E450 + 0x20*(256) + 0x10	::	.dh	( 90)	// FtrSword
+.org 0x800E450 + 0x20*(152) + 0x10	::	.dh	( 91)	// FullCust
+.org 0x800E450 + 0x20*( 84) + 0x10	::	.dh	( 92)	// Hammer
+.org 0x800E450 + 0x20*(102) + 0x10	::	.dh	( 93)	// HeatBall
+.org 0x800E450 + 0x20*( 14) + 0x10	::	.dh	( 94)	// HeatCros
+.org 0x800E450 + 0x20*(224) + 0x10	::	.dh	( 95)	// HeatMan
+.org 0x800E450 + 0x20*(225) + 0x10	::	.dh	( 96)	// HeatManV2
+.org 0x800E450 + 0x20*(226) + 0x10	::	.dh	( 97)	// HeatManV3
+.org 0x800E450 + 0x20*( 12) + 0x10	::	.dh	( 98)	// HeatShot
+.org 0x800E450 + 0x20*( 15) + 0x10	::	.dh	( 99)	// HeatSprd
+.org 0x800E450 + 0x20*( 13) + 0x10	::	.dh	(100)	// Heat-V
+.org 0x800E450 + 0x20*(258) + 0x10	::	.dh	(101)	// HeroSwrd
+.org 0x800E450 + 0x20*(  2) + 0x10	::	.dh	(102)	// HiCannon
+.org 0x800E450 + 0x20*(179) + 0x10	::	.dh	(103)	// HolyPanl
+.org 0x800E450 + 0x20*(174) + 0x10	::	.dh	(104)	// IceLine
+.org 0x800E450 + 0x20*(177) + 0x10	::	.dh	(105)	// IceStae
+.org 0x800E450 + 0x20*(153) + 0x10	::	.dh	(106)	// Invis1
+.org 0x800E450 + 0x20*(154) + 0x10	::	.dh	(107)	// Invis2
+.org 0x800E450 + 0x20*(155) + 0x10	::	.dh	(108)	// Invis3
+.org 0x800E450 + 0x20*(180) + 0x10	::	.dh	(109)	// Jealosy
+.org 0x800E450 + 0x20*(215) + 0x10	::	.dh	(110)	// KnihtMan
+.org 0x800E450 + 0x20*(216) + 0x10	::	.dh	(111)	// KnihtMnV2
+.org 0x800E450 + 0x20*(217) + 0x10	::	.dh	(112)	// KnihtMnV3
+.org 0x800E450 + 0x20*(257) + 0x10	::	.dh	(113)	// KnitSwrd
+.org 0x800E450 + 0x20*( 35) + 0x10	::	.dh	(114)	// Kunai1
+.org 0x800E450 + 0x20*( 36) + 0x10	::	.dh	(115)	// Kunai2
+.org 0x800E450 + 0x20*( 37) + 0x10	::	.dh	(116)	// Kunai3
+.org 0x800E450 + 0x20*(116) + 0x10	::	.dh	(117)	// Lance
+.org 0x800E450 + 0x20*(104) + 0x10	::	.dh	(118)	// LavaDrao
+.org 0x800E450 + 0x20*(173) + 0x10	::	.dh	(119)	// LavaLine
+.org 0x800E450 + 0x20*(176) + 0x10	::	.dh	(120)	// LavaStae
+.org 0x800E450 + 0x20*(164) + 0x10	::	.dh	(121)	// LeafShld
+.org 0x800E450 + 0x20*(169) + 0x10	::	.dh	(122)	// LifeAur1
+.org 0x800E450 + 0x20*(170) + 0x10	::	.dh	(123)	// LifeAur2
+.org 0x800E450 + 0x20*(171) + 0x10	::	.dh	(124)	// LifeAur3
+.org 0x800E450 + 0x20*( 17) + 0x10	::	.dh	(125)	// LilBomb
+.org 0x800E450 + 0x20*( 91) + 0x10	::	.dh	(126)	// LilCloud
+.org 0x800E450 + 0x20*(115) + 0x10	::	.dh	(127)	// LineOut
+.org 0x800E450 + 0x20*( 25) + 0x10	::	.dh	(128)	// LonSwrd
+.org 0x800E450 + 0x20*(  3) + 0x10	::	.dh	(129)	// M-Cannon
+.org 0x800E450 + 0x20*( 77) + 0x10	::	.dh	(130)	// MaBomb1
+.org 0x800E450 + 0x20*( 78) + 0x10	::	.dh	(131)	// MaBomb2
+.org 0x800E450 + 0x20*( 79) + 0x10	::	.dh	(132)	// MaBomb3
+.org 0x800E450 + 0x20*(172) + 0x10	::	.dh	(133)	// MaLine
+.org 0x800E450 + 0x20*(218) + 0x10	::	.dh	(134)	// ManetMan
+.org 0x800E450 + 0x20*(219) + 0x10	::	.dh	(135)	// ManetMnV2
+.org 0x800E450 + 0x20*(220) + 0x10	::	.dh	(136)	// ManetMnV3
+.org 0x800E450 + 0x20*( 92) + 0x10	::	.dh	(137)	// MedCloud
+.org 0x800E450 + 0x20*( 81) + 0x10	::	.dh	(138)	// Meteor12
+.org 0x800E450 + 0x20*( 82) + 0x10	::	.dh	(139)	// Meteor15
+.org 0x800E450 + 0x20*( 83) + 0x10	::	.dh	(140)	// Meteor18
+.org 0x800E450 + 0x20*( 80) + 0x10	::	.dh	(141)	// Meteor9
+.org 0x800E450 + 0x20*(259) + 0x10	::	.dh	(142)	// Meteors
+.org 0x800E450 + 0x20*(137) + 0x10	::	.dh	(143)	// Mindbndr
+.org 0x800E450 + 0x20*( 94) + 0x10	::	.dh	(144)	// Mine
+.org 0x800E450 + 0x20*( 16) + 0x10	::	.dh	(145)	// MiniBomb
+.org 0x800E450 + 0x20*( 33) + 0x10	::	.dh	(146)	// Muramasa
+.org 0x800E450 + 0x20*(242) + 0x10	::	.dh	(147)	// NapalmMn
+.org 0x800E450 + 0x20*(243) + 0x10	::	.dh	(148)	// NaplmMnV2
+.org 0x800E450 + 0x20*(244) + 0x10	::	.dh	(149)	// NaplmMnV3
+.org 0x800E450 + 0x20*(193) + 0x10	::	.dh	(150)	// Navi+20
+.org 0x800E450 + 0x20*( 49) + 0x10	::	.dh	(151)	// Navi+40
+.org 0x800E450 + 0x20*(105) + 0x10	::	.dh	(152)	// OdStone
+.org 0x800E450 + 0x20*(120) + 0x10	::	.dh	(153)	// OldFist
+.org 0x800E450 + 0x20*(106) + 0x10	::	.dh	(154)	// OldWood
+.org 0x800E450 + 0x20*(130) + 0x10	::	.dh	(155)	// PanelRab
+.org 0x800E450 + 0x20*(113) + 0x10	::	.dh	(156)	// PanlOut1
+.org 0x800E450 + 0x20*(114) + 0x10	::	.dh	(157)	// PanlOut3
+.org 0x800E450 + 0x20*(245) + 0x10	::	.dh	(158)	// PharoMan
+.org 0x800E450 + 0x20*(246) + 0x10	::	.dh	(159)	// PharoMnV2
+.org 0x800E450 + 0x20*(247) + 0x10	::	.dh	(160)	// PharoMnV3
+.org 0x800E450 + 0x20*(239) + 0x10	::	.dh	(161)	// PlanetMn
+.org 0x800E450 + 0x20*(240) + 0x10	::	.dh	(162)	// PlnetMnV2
+.org 0x800E450 + 0x20*(241) + 0x10	::	.dh	(163)	// PlnetMnV3
+.org 0x800E450 + 0x20*(108) + 0x10	::	.dh	(164)	// PoisFace
+.org 0x800E450 + 0x20*(107) + 0x10	::	.dh	(165)	// PoisMask
+.org 0x800E450 + 0x20*(260) + 0x10	::	.dh	(166)	// Poltrest
+.org 0x800E450 + 0x20*(157) + 0x10	::	.dh	(167)	// PopUp
+.org 0x800E450 + 0x20*(145) + 0x10	::	.dh	(168)	// Prism
+.org 0x800E450 + 0x20*(200) + 0x10	::	.dh	(169)	// ProtoMan
+.org 0x800E450 + 0x20*(201) + 0x10	::	.dh	(170)	// ProtoMnV2
+.org 0x800E450 + 0x20*(202) + 0x10	::	.dh	(171)	// ProtoMnV3
+.org 0x800E450 + 0x20*( 55) + 0x10	::	.dh	(172)	// QuadNdl
+.org 0x800E450 + 0x20*( 42) + 0x10	::	.dh	(173)	// Quake1
+.org 0x800E450 + 0x20*( 43) + 0x10	::	.dh	(174)	// Quake2
+.org 0x800E450 + 0x20*( 44) + 0x10	::	.dh	(175)	// Quake3
+.org 0x800E450 + 0x20*(206) + 0x10	::	.dh	(176)	// QuickMan
+.org 0x800E450 + 0x20*(207) + 0x10	::	.dh	(177)	// QuickMnV2
+.org 0x800E450 + 0x20*(208) + 0x10	::	.dh	(178)	// QuickMnV3
+.org 0x800E450 + 0x20*(132) + 0x10	::	.dh	(179)	// RabReven
+.org 0x800E450 + 0x20*(175) + 0x10	::	.dh	(180)	// RassLne
+.org 0x800E450 + 0x20*(178) + 0x10	::	.dh	(181)	// RassStae
+.org 0x800E450 + 0x20*( 57) + 0x10	::	.dh	(182)	// Ratton1
+.org 0x800E450 + 0x20*( 58) + 0x10	::	.dh	(183)	// Ratton2
+.org 0x800E450 + 0x20*( 59) + 0x10	::	.dh	(184)	// Ratton3
+.org 0x800E450 + 0x20*(122) + 0x10	::	.dh	(185)	// Recov10
+.org 0x800E450 + 0x20*(126) + 0x10	::	.dh	(186)	// Recov120
+.org 0x800E450 + 0x20*(127) + 0x10	::	.dh	(187)	// Recov150
+.org 0x800E450 + 0x20*(128) + 0x10	::	.dh	(188)	// Recov200
+.org 0x800E450 + 0x20*(123) + 0x10	::	.dh	(189)	// Recov30
+.org 0x800E450 + 0x20*(129) + 0x10	::	.dh	(190)	// Recov300
+.org 0x800E450 + 0x20*(124) + 0x10	::	.dh	(191)	// Recov50
+.org 0x800E450 + 0x20*(125) + 0x10	::	.dh	(192)	// Recov80
+.org 0x800E450 + 0x20*( 97) + 0x10	::	.dh	(193)	// Remobit1
+.org 0x800E450 + 0x20*( 98) + 0x10	::	.dh	(194)	// Remobit2
+.org 0x800E450 + 0x20*( 99) + 0x10	::	.dh	(195)	// Remobit3
+.org 0x800E450 + 0x20*(140) + 0x10	::	.dh	(196)	// Repair
+.org 0x800E450 + 0x20*(144) + 0x10	::	.dh	(197)	// RockCube
+.org 0x800E450 + 0x20*(194) + 0x10	::	.dh	(198)	// Roll
+.org 0x800E450 + 0x20*(195) + 0x10	::	.dh	(199)	// RollV2
+.org 0x800E450 + 0x20*(196) + 0x10	::	.dh	(200)	// RollV3
+.org 0x800E450 + 0x20*( 71) + 0x10	::	.dh	(201)	// Satelit1
+.org 0x800E450 + 0x20*( 72) + 0x10	::	.dh	(202)	// Satelit2
+.org 0x800E450 + 0x20*( 73) + 0x10	::	.dh	(203)	// Satelit3
+.org 0x800E450 + 0x20*(212) + 0x10	::	.dh	(204)	// ShadoMan
+.org 0x800E450 + 0x20*(213) + 0x10	::	.dh	(205)	// ShadoMnV2
+.org 0x800E450 + 0x20*(214) + 0x10	::	.dh	(206)	// ShadoMnV3
+.org 0x800E450 + 0x20*(159) + 0x10	::	.dh	(207)	// Shadow1
+.org 0x800E450 + 0x20*(160) + 0x10	::	.dh	(208)	// Shadow2
+.org 0x800E450 + 0x20*(161) + 0x10	::	.dh	(209)	// Shadow3
+.org 0x800E450 + 0x20*( 39) + 0x10	::	.dh	(210)	// Shockwav
+.org 0x800E450 + 0x20*(  4) + 0x10	::	.dh	(211)	// Shotun
+.org 0x800E450 + 0x20*(119) + 0x10	::	.dh	(212)	// SilvFist
+.org 0x800E450 + 0x20*( 38) + 0x10	::	.dh	(213)	// Slasher
+.org 0x800E450 + 0x20*(150) + 0x10	::	.dh	(214)	// SlowAue
+.org 0x800E450 + 0x20*(233) + 0x10	::	.dh	(215)	// SnakeMan
+.org 0x800E450 + 0x20*(234) + 0x10	::	.dh	(216)	// SnakeMnV2
+.org 0x800E450 + 0x20*(235) + 0x10	::	.dh	(217)	// SnakeMnV3
+.org 0x800E450 + 0x20*(270) + 0x10	::	.dh	(218)	// Snctuary
+.org 0x800E450 + 0x20*( 40) + 0x10	::	.dh	(219)	// Sonicwav
+.org 0x800E450 + 0x20*(253) + 0x10	::	.dh	(220)	// Sparker
+.org 0x800E450 + 0x20*( 68) + 0x10	::	.dh	(221)	// Spice1
+.org 0x800E450 + 0x20*( 69) + 0x10	::	.dh	(222)	// Spice2
+.org 0x800E450 + 0x20*( 70) + 0x10	::	.dh	(223)	// Spice3
+.org 0x800E450 + 0x20*(  7) + 0x10	::	.dh	(224)	// Spreader
+.org 0x800E450 + 0x20*( 32) + 0x10	::	.dh	(225)	// StepSwrd
+.org 0x800E450 + 0x20*(158) + 0x10	::	.dh	(226)	// StoneBod
+.org 0x800E450 + 0x20*( 23) + 0x10	::	.dh	(227)	// Sword
+.org 0x800E450 + 0x20*(230) + 0x10	::	.dh	(228)	// ThunMan
+.org 0x800E450 + 0x20*(231) + 0x10	::	.dh	(229)	// ThunManV2
+.org 0x800E450 + 0x20*(232) + 0x10	::	.dh	(230)	// ThunManV3
+.org 0x800E450 + 0x20*( 88) + 0x10	::	.dh	(231)	// TimeBom1
+.org 0x800E450 + 0x20*( 89) + 0x10	::	.dh	(232)	// TimeBom2
+.org 0x800E450 + 0x20*( 90) + 0x10	::	.dh	(233)	// TimeBom3
+.org 0x800E450 + 0x20*(227) + 0x10	::	.dh	(234)	// ToadMan
+.org 0x800E450 + 0x20*(228) + 0x10	::	.dh	(235)	// ToadManV2
+.org 0x800E450 + 0x20*(229) + 0x10	::	.dh	(236)	// ToadManV3
+.org 0x800E450 + 0x20*( 61) + 0x10	::	.dh	(237)	// Tornado
+.org 0x800E450 + 0x20*( 20) + 0x10	::	.dh	(238)	// TreeBom1
+.org 0x800E450 + 0x20*( 21) + 0x10	::	.dh	(239)	// TreeBom2
+.org 0x800E450 + 0x20*( 22) + 0x10	::	.dh	(240)	// TreeBom3
+.org 0x800E450 + 0x20*( 56) + 0x10	::	.dh	(241)	// Trident
+.org 0x800E450 + 0x20*( 54) + 0x10	::	.dh	(242)	// TripNdl
+.org 0x800E450 + 0x20*( 62) + 0x10	::	.dh	(243)	// Twister
+.org 0x800E450 + 0x20*(111) + 0x10	::	.dh	(244)	// Uard
+.org 0x800E450 + 0x20*(146) + 0x10	::	.dh	(245)	// Uardian
+.org 0x800E450 + 0x20*(162) + 0x10	::	.dh	(246)	// UnderSht
+.org 0x800E450 + 0x20*( 45) + 0x10	::	.dh	(247)	// UtPunch
+.org 0x800E450 + 0x20*(197) + 0x10	::	.dh	(248)	// UtsMan
+.org 0x800E450 + 0x20*(198) + 0x10	::	.dh	(249)	// UtsManV2
+.org 0x800E450 + 0x20*(199) + 0x10	::	.dh	(250)	// UtsManV3
+.org 0x800E450 + 0x20*(121) + 0x10	::	.dh	(251)	// VarSwrd
+.org 0x800E450 + 0x20*(  5) + 0x10	::	.dh	(252)	// V-Un
+.org 0x800E450 + 0x20*(109) + 0x10	::	.dh	(253)	// Whirlpl
+.org 0x800E450 + 0x20*( 24) + 0x10	::	.dh	(254)	// WideSwrd
+.org 0x800E450 + 0x20*(147) + 0x10	::	.dh	(255)	// Wind
+.org 0x800E450 + 0x20*(191) + 0x10	::	.dh	(256)	// Wood+40
+.org 0x800E450 + 0x20*(167) + 0x10	::	.dh	(257)	// WoodAura
+.org 0x800E450 + 0x20*(264) + 0x10	::	.dh	(258)	// WoodOspl
+.org 0x800E450 + 0x20*( 51) + 0x10	::	.dh	(259)	// Wrecker
+.org 0x800E450 + 0x20*( 74) + 0x10	::	.dh	(260)	// Yo-Yo1
+.org 0x800E450 + 0x20*( 75) + 0x10	::	.dh	(261)	// Yo-Yo2
+.org 0x800E450 + 0x20*( 76) + 0x10	::	.dh	(262)	// Yo-Yo3
+.org 0x800E450 + 0x20*( 65) + 0x10	::	.dh	(263)	// ZapRin1
+.org 0x800E450 + 0x20*( 66) + 0x10	::	.dh	(264)	// ZapRin2
+.org 0x800E450 + 0x20*( 67) + 0x10	::	.dh	(265)	// ZapRin3
+.org 0x800E450 + 0x20*(117) + 0x10	::	.dh	(266)	// ZeusHamr
+
+
+// Chip images
+//.org 0x8720B50
+//.area 0x20,0x00
+//	.import TEMP+"/chip-ok.pal.png"
+//.endarea
+.org 0x871BF30
+.area 0x700,0x00
+	.import TEMP+"/chip-ok.img.bin"
+.endarea

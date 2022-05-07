@@ -1,0 +1,20 @@
+# ROMs and build output
+_rom/*
+!_rom/roms_go_here.txt
+!_rom/Data changes.txt
+!_rom/README.txt
+!_rom/Version history.txt
+!_rom/*.lnk
+
+# Temp folder
+_temp/
+
+# Third party tools
+tools/*.exe
+tools/*.dll
+!tools/LibTextPet.dll
+!tools/PixelPet.exe
+!tools/TextPet.exe
+
+# Shortcuts
+*.lnk

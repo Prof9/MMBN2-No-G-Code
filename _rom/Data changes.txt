@@ -1,0 +1,82 @@
+ENEMY DATA
+VIRUS       MEGAMAN HP  BEFORE          AFTER           DETAILS
+Mettaur3    Low         Dynawave  G     Dynawave  Q     Same as high/mid HP
+Canodumb2   Any         HiCannon  G     HiCannon  H     Changed code
+Canodumb3   Any         M-Cannon  G     M-Cannon  J     Changed code
+Fishy       High        DashAtk   G     DashAtk   B     Same as other slot
+Fishy       Mid         DashAtk   G     DashAtk   B     Same as high HP
+Cloudy      Low         LilCloud  G     LilCloud  K     Same as lower reward
+Spooky2     High-Mid    Recov50   G     Recov50   I     Same as GMD
+Spooky3     Mid         Invis3    G     Invis3    P     Same as high HP
+Handy       Low         TimeBom1  G     TimeBom1  C     Same as other slot
+Handy2      Mid         TimeBom2  G     TimeBom2  O     Same as other slot
+Handy3      Low         TimeBom3  G     TimeBom3  Z     Same as other slot
+TuffBunny   Low         ZapRing2  G     ZapRing2  N     Same as mid HP
+DeathFire   Mid         Meteor15  G     Meteor15  D     Same as lower reward
+DeathFire   Low         Meteor15  G     Meteor15  R     Same as lower reward
+CanDevil2   Low         Candle2   G     Candle2   A     Same as other slot
+Mushy       Low         Spice1    G     Spice1    Q     Same as mid HP
+Mole2       Mid         Meteor18  G     Meteor18  K     Same as high HP
+Flappy2     Mid         Quake2    G     Quake2    B     Same as high/low HP
+Twisty      High        Remobit1  G     Remobit1  E     Same as mid/low HP
+Spikey      High        HeatShot  G     HeatShot  P     Same as lower reward
+Spikey      Mid         HeatShot  G     HeatShot  H     Same as lower reward
+Shrimpy     Low         Bubbler   G     Bubbler   H     Same as mid HP
+Sparky      Any         Satelit1  G     Satelit1  U     Similar code distribution
+Yurt        Low         Yo-Yo2    G     Yo-Yo2    A     Same as high/mid HP
+KillPlant   Mid         TreeBom1  G     TreeBom1  B     Same as high/low HP
+KillPlant   Low         TreeBom1  G     TreeBom1  H     Same as high/mid HP
+Null        High        Whirlpl   G     Whirlpl   I     Same as mid HP
+Magneaker   Any         MagBomb1  G     MagBomb1  F     Same as lower reward
+Shadow      Mid-Low     Shadow1   G     Shadow1   B     Same as other slot
+WindBox     High-Mid    Wind      G     Wind      Q     Same as low HP
+VacuumFan   High        Fan       G     Fan       N     Same as mid HP
+Snapper3    High        Kunai3    G     Kunai3    C     Same as other slot
+Lavagon     Any         LavaDrag  G     LavaDrag  F     Same as other slot
+Scutz       High/Low    LifeAur1  G     LifeAur1  B     Same as other slot
+Scuttle     High/Low    LifeAur1  G     LifeAur1  B     Same as other slot
+Scuttler    High/Low    LifeAur1  G     LifeAur1  B     Same as other slot
+Scuttzer    High/Low    LifeAur1  G     LifeAur1  B     Same as other slot
+GutsMan     Any         GutsMan   G     GutsMan   U     Changed code
+GutsManV2   Any         GutsManV2 G     GutsManV2 U     Changed code
+GutsManV3   Any         GutsMan   G     GutsMan   U     Changed code
+GutsManV3   Any         GutsManV2 G     GutsManV2 U     Changed code
+GutsManV3   Any         GutsManV3 G     GutsManV3 U     Changed code
+GateManV2   Any         GateMan   G     GateMan   A     Changed code
+GateManV3   Any         GateMan   G     GateMan   A     Changed code
+GateManV3   Any         GateManV2 G     GateManV2 A     Changed code
+GateManV3   Any         GateManV3 G     GateManV3 A     Changed code
+
+MYSTERY DATA
+LOCATION        BEFORE          AFTER           DETAILS
+UnderKoto       Dynawave  G     Dynawave  Q     Match virus drop
+Netopia 3       HiCannon  G     HiCannon  H     Match virus drop
+Undernet 2      HiCannon  G     HiCannon  H     Match virus drop
+Undernet 4      Fan       G     Fan       N     Match virus drop
+Undernet 6      Wind      G     Wind      Q     Match virus drop
+
+FOLDERS
+FOLDER              BEFORE          AFTER           DETAILS
+Famous's Folder     HiCannon  G     HiCannon H      Match virus drop
+Jennifer's Folder   LilCloud  G     LilCloud K      Match virus drop
+
+SECRET CHIPS
+CHIP        CODE    BEFORE  AFTER
+Sparker     C        2/16    3/16
+            E        2/16    3/16
+            G        4/16    0/16
+            K        4/16    6/16
+            V        4/16    6/16
+BlkBomb     B        3/16    4/16
+            F        4/16    4/16
+            G        3/16    0/16
+            P        3/16    4/16
+            R        3/16    4/16
+
+CHIP TRADERS
+- All G codes removed
+- New codes added for HiCannon, M-Cannon, GutsMan, GateMan
+
+NPCS
+- Scientist in Camp: Bubbler G -> Bubbler H (match virus drop)
+- Request: Satelit1 G -> Satelit1 U (match virus drop)
